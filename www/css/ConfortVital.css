@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background-color: #68a72f;
+}
+.website-option {   
+    width: 30%;
+    line-height: 20 px;
+    height: 30px;
+    background-color: #eeeeee;
+    float: left;
+}
+.divisor {
+    width: 2.5%;
+    line-height: 20 px;
+    height: 30px;
+    background-color: #AAAAAA;
+    float: left;
+}
+.menu {
+    width:90%; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav {
+    height: 35px;
+}
+.content 
+{
+    width: 90%;
+    height: 80vh;
+    margin: 0px auto;
+    background-color: #c5e6a7;
+    overflow-y: auto;
+}
+.loading
+{
+    padding: 40px;
+}
+.connection_error
+{
+    display:inline-block;
+    width:300px;
+    color:#FF0000;
+    font-weight:bold;
+    size: 25px;
+    margin: 40px;
+    padding:40px;
+    background: rgba(150,150,150,0.3);
+    -pie-background: rgba(150,150,150,0.3);
+    box-shadow: 5px 5px 2px #888888;
+}
+p.error_message
+{
+   display:initial;
+}
+.fp_image_div
+{
+    width: 130px;
+    height: 140px;
+    margin: 5px 10px 0px 10px;
+    display: inline-block;
+}
+
+.fp_image
+{
+    width: 130px;
+    height:130px;
+}
+
+.fp_image_location
+{
+    width: 130px;
+    height: 10px;
+
+
+}
+.table_results
+{
+    margin: 20px;
+    display:inline;
+}
+table.matress_table
+{
+    width:100%;
+    margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+}
+table.matress_table th 
+{
+    background-color:#4CAF50;
+    color: white;
+}
+
+table.matress_table tr:nth-child(even)
+{
+   background-color:#f2f2f2;
+}
+
+table.matress_table tr:nth-child(odd)
+{
+   background-color:white;
+}
+

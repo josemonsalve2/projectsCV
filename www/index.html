@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <title>Web Scrapping -- Confort Vital</title>
+	<link rel="stylesheet" type="text/css" href="css/ConfortVital.css" >
+	<link rel="icon" type="image/png" href="http://www.confortvital.com.co/templates/gk_game/images/favicon.ico">
+    </head>
+    <body>
+        <header>
+        <p>
+            Esta p&aacute;gina obtiene la informaci&oacute;n de la competencia en Exito.com, cdiscount.com.co y linio.com.co.
+            <br/>
+            Creada por -- Jose M Monsalve Diaz.
+        </p>   
+        </header>
+        <nav>
+            
+            <div class="menu">
+                        <div class="tr">
+                            <div class="divisor"></div>
+                            <div class="website-option" id="exito.com"><span>Exito.com</span></div>
+                            <div class="divisor"></div>
+                            <div class="website-option" id="cdiscount.com"><span>cdiscount.com</span></div>
+                            <div class="divisor"></div>
+                            <div class="website-option" id="linio.com"><span>linio.com.co</span></div>
+                            <div class="divisor"></div>
+                        </div>
+            </div>
+
+        </nav>
+        <section class="content" id="scrapped-content">
+            <div class="results" id="results"> </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script  type="text/javascript" src="js/confortVitalParser.js"></script>
+    </body>
+</html>
